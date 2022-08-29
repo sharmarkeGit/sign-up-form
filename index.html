@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">sidebar
+            <div class="logo-section">
+                <img class="responsive-logo" src="/images/odin-lined.png" alt="logo">
+                <div class="logo-text">ODIN</div>
+            </div>
+        </div>
+        <div class="content">
+            <p class="big">This is not a real online service! You know you need sommething
+                like this in your life to help you realise your deepest dreams.
+                Sign up <em>now</em> to get started.
+            </p>
+            <p class="big">You <em>know</em> you want to.</p>
+            <div class="form-section flex-column">
+                <p class="big">Let's do this!</p>
+                <form action="#" id="form1">
+                    <div class="first-group flex-column">
+                        <div class="flex-column">
+                            <label for="first-name">FIRST NAME </label>
+                            <input id="first-name" type="text">
+                        </div>
+                        <div class="flex-column">
+                            <label for="email">EMAIL</label>
+                            <input id="email" type="email">
+                        </div>
+                        <div class="flex-column">
+                            <label for="password">PASSWORD</label>
+                            <input id="password" type="password">
+                        </div>
+                    </div>
+                    <div class="second-group flex-column">
+                        <div class="flex-column">
+                            <label for="last-name">LAST NAME</label>
+                            <input id="last-name" type="text">
+                        </div>
+                        
+                        <div class="flex-column">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input id="phone-number" type="tel">
+                        </div>
+                        
+                        <div class="flex-column">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input id="confirm-password" type="password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div><button type="submit" form="form1">Create an account</button></div>
+            <p class="small">Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
